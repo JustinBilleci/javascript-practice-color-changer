@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changing JS practice</title>
+    <style>
+        #red {
+            background-color: red;
+        }
+        #green {
+            background-color: green;
+        }
+        #blue {
+            background-color: blue;
+        }
+
+        button {
+            border-radius: 5px;
+            width: 100px;
+            height: 45px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>
+        Color Changer
+    </h3> <!--onclick event will allow the button to chnage to it's correct color--> 
+    <button id="red" onclick="setColor('red')">Red</button> 
+    <button id="green" onclick="setColor('green')">Green</button>
+    <button id="blue" onclick="setColor('blue')">Blue</button>
+    <button onclick="randomColor()">Random</button>
+    <script src="index.js"></script>
+</body>
+</html>
